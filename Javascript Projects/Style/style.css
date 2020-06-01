@@ -40,8 +40,8 @@ ul {
 }
 
 .anim-typewriter {
-  -webkit-animation: typewriter 2s steps(40) 1s 1 normal both, writeCursor 400ms steps(40) infinite normal;
-          animation: typewriter 2s steps(40) 1s 1 normal both, writeCursor 400ms steps(40) infinite normal;
+  -webkit-animation: typewriter 4s steps(40) 1s 1 normal both, writeCursor 500ms steps(40) infinite normal;
+          animation: typewriter 4s steps(40) 1s 1 normal both, writeCursor 500ms steps(40) infinite normal;
 }
 
 @-webkit-keyframes typewriter {
@@ -354,7 +354,6 @@ h6 {
 
 .projects {
   height: 500px;
-  cursor: pointer;
 }
 
 .project1 {
@@ -419,7 +418,7 @@ h6 {
   bottom: 0;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 768px) {
   .projects {
     width: 90%;
     margin: 1rem auto;
